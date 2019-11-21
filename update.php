@@ -1,5 +1,5 @@
 <?php
-	$f = fopen(__DIR__."log.log", "a");
+	$f = fopen(__FILE__ . "log.log", "a");
 	$out = shell_exec("git -C /root/TestV/ pull");
 	
 	if(strrpos($out, "error: Your local") === true){
