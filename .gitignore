@@ -1,0 +1,6 @@
+# folder logs
+logs/
+# folder videos
+videos/
+# log-files
+*.log
